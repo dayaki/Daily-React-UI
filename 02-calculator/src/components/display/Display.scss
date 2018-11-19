@@ -1,0 +1,29 @@
+.display {
+  width: 120%;
+  height: 28vh;
+  padding-right: 4rem;
+  padding-top: 6rem;
+  margin: 0 -2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 100%95px;
+  border-bottom-right-radius: 100%95px;
+  text-align: right;
+  background: linear-gradient(135deg, rgba(163,161,251,1) 0%, rgba(132,132,253,1) 73%, rgba(132,132,253,1) 100%);
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+    p {
+      font-weight: 400;
+      margin: 0;
+      margin-bottom: 1rem;
+      color: rgba(224, 225, 231, .8);
+    }
+    h4 {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0;
+      position: relative;
+      bottom: 1rem;
+    }
+}
