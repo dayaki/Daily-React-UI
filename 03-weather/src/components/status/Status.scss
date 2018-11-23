@@ -1,0 +1,35 @@
+.weatherStatus {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  padding: 10px;
+  width: 83%;
+  text-align: right;
+    .weather-icon {
+      font-size: 4rem;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      clear: both;
+      margin: 0;
+      text-transform: capitalize;
+    }
+    p {
+      color: #82c1ff;
+      font-size: 20px;
+      margin: 0;
+      font-weight: 400;
+      opacity: .8;
+    }
+    h3 {
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 2.15rem;
+        sup {
+          margin-left: -5px;
+          font-size: 15px;
+          vertical-align: super;
+          top: -.2em;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  z-index: 30;
+  padding-top: 4rem;
+}
+.forecastsWrapper {
+  position: absolute;
+  bottom: 0rem;
+  padding-bottom: 3rem;
+  z-index: 40;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(63, 85, 212, .8) 0%, rgba(63, 85, 212, 1) 10%, rgba(63, 85, 212, 1) 76%, rgba(63, 85, 212, 1) 100%);
+  box-shadow: 0px -20px 20px 0px rgba(63, 86, 212, 0.8);
+}
+.loader {
+  margin-top: 2rem;
+  text-align: center;
+  display: inline-block;
+}
