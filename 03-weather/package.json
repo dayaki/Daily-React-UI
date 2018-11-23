@@ -2,7 +2,7 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://madebydayo.co/react-ui/02/",
+  "homepage": "https://madebydayo.co/react-ui/03/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "moment": "^2.22.2",
