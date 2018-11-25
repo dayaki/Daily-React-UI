@@ -1,0 +1,126 @@
+.wavvy {
+  height: 150px;
+  width: 110%;
+  position: relative;
+  z-index: 100;
+    svg {
+      fill: #fff;
+      height: 100%;
+      width: 100%
+    }
+    .left {
+      position: relative;
+      z-index: 100;
+      margin-top: -1rem;
+      margin-left: -1rem;
+      animation: wavvy-right linear 10s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+        svg {
+          width: 120%;
+          opacity: .3;
+        }
+    }
+    .right {
+      position: relative;
+      z-index: 150;
+      margin-top: -7rem;
+      animation: wavvy-left linear 10s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+        svg {
+          opacity: .3;
+        }
+    }
+    .center {
+      position: absolute;
+      z-index: 80;
+      bottom: 3rem;
+      left: -4rem;
+      animation: wavvy-center linear 10s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%;
+      width: 150%;
+        svg {
+          opacity: .3;
+          width: 80%;
+        }
+    }
+}
+
+// Wavvy Animation
+@keyframes wavvy-right {
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  20% {
+    transform:  translate(3px,-19px)  ;
+  }
+  40% {
+    transform:  translate(6px,-6px)  ;
+  }
+  60% {
+    transform:  translate(9px,-18px)  ;
+  }
+  80% {
+    transform:  translate(13px,-3px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+@keyframes wavvy-left {
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  20% {
+    transform:  translate(-3px,-19px)  ;
+  }
+  40% {
+    transform:  translate(-6px,-6px)  ;
+  }
+  60% {
+    transform:  translate(-9px,-18px)  ;
+  }
+  80% {
+    transform:  translate(-13px,-3px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+@keyframes wavvy-center{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  10% {
+    transform:  translate(1px,-7px)  ;
+  }
+  20% {
+    transform:  translate(2px,1px)  ;
+  }
+  31% {
+    transform:  translate(3px,-5px)  ;
+  }
+  40% {
+    transform:  translate(4px,0px)  ;
+  }
+  50% {
+    transform:  translate(4px,-7px)  ;
+  }
+  60% {
+    transform:  translate(3px,1px)  ;
+  }
+  70% {
+    transform:  translate(2px,-5px)  ;
+  }
+  80% {
+    transform:  translate(1px,1px)  ;
+  }
+  90% {
+    transform:  translate(0px,-7px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}

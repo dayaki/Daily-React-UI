@@ -1,0 +1,45 @@
+.albumArt {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5rem;
+  position: relative;
+    .inner1 {
+      width: 180px;
+      height: 180px;
+      margin: 0 auto;
+      border-radius: 14rem;
+      background: rgba(255, 255, 255, 0.3);
+      position: relative;
+    }
+    .inner2 {
+      width: 160px;
+      height: 160px;
+      position: relative;
+      margin: 0 auto;
+      top: 10px;
+      border-radius: 14rem;
+      background: rgba(255, 255, 255, 0.5);
+    }
+    .inner3 {
+      width: 140px;
+      height: 140px;
+      position: relative;
+      margin: 0 auto;
+      top: 10px;
+      border-radius: 14rem;
+      background: rgba(255, 255, 255, 0.7);
+    }
+    img {
+      width: 140px;
+      height: 140px;
+      position: relative;
+      padding: 7px;
+      border-radius: 10rem;
+    }
+    img:after {
+      content: '';
+      display: block;
+      background: red;
+    }
+}
